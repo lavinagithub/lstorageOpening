@@ -1,0 +1,33 @@
+<!DOCTYPE html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books List</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+  <body>
+    <h1>Books</h1>
+    <div>
+        <p><input type="text" name="myTitle" id="myTitle" placeholder="Enter the Title"/></p>
+        <p><input type="text" name="myAuthor" id="myAuthor"  placeholder="Enter the Author's Name"/></p>
+        <p>
+        <textarea
+            name="myDesc"
+            id="myDesc"
+            rows="10"
+            cols="80"
+             placeholder="Enter Description"
+        ></textarea>
+        </p>
+        <p>
+        <button id="btnSave">Save</button>
+        <button id="btnLoad">Load</button>
+        </p>
+    </div>
+    <div class="list_books" id="list_books">
+        <!-- display book list -->
+    </div>
+      <script src="myscript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.list_books {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list_books > div {
+  width: 10%;
+   flex: 1 0 21%; 
+}
